@@ -1,0 +1,29 @@
+// Setup
+@import "setup/variables.scss";
+@import "setup/functions.scss";
+@import "setup/mixins.scss";
+@import "setup/typography.scss";
+
+// Basics
+@import "basics/helpers.scss";
+@import "basics/layout.scss";
+@import "basics/base.scss";
+@import "basics/keyframes.scss";
+
+
+// Components
+@import "components/header.scss";
+@import "components/book-list.scss";
+@import "components/book-preview.scss";
+@import "components/book-filter.scss";
+@import "components/book-add.scss";
+@import "components/book-details.scss";
+@import "components/book-edit.scss";
+@import "components/rating-section.scss";
+@import "components/reviews-section.scss";
+@import "components/filter_input_range.scss";
+@import "components/alert.scss";
+
+//Views (Pages)
+@import "views/book.scss";
+@import "views/home.scss";

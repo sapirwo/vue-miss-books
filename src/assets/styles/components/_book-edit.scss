@@ -1,0 +1,103 @@
+.book-edit-container {
+    background-color: #edd812;
+    background-image: linear-gradient(315deg, #edd812 0%, #766a65 74%);
+    min-height: 100vh;
+    padding: 20px;
+    text-align: center;
+
+    .book-edit-content {
+        margin-top: 70px;
+        animation: flash 0.5s;
+    }
+
+    .book-preview-container {
+        width: 65vw;
+        height: 50vh;
+        max-width: 350px;
+        max-height: 500px;
+        margin: 0 auto 20px;
+        position: relative;
+
+        .sale-icon {
+            position: absolute;
+            z-index: 1;
+            max-width: 70px;
+            transform: rotate(340deg);
+        }
+
+        h2 {
+            color: rgb(221, 218, 119);
+            margin-bottom: 0;
+            padding: 5px;
+            font-family: handlee;
+            font-size: 2rem;
+            font-weight: 600;
+
+            &:last-of-type {
+                text-overflow: ellipsis;
+                font-size: 1.2rem;
+                color: rgba(255, 255, 255, 0.822);
+            }
+        }
+
+        .rating-section {
+            font-size: 1.5rem;
+        }
+    }
+
+    .book-edit-form-container {
+        max-width: 400px;
+        margin: 0 auto;
+        animation: flash 1s;
+
+        label {
+            font-size: 2rem;
+            text-shadow: black 1px 1px;
+            margin-bottom: 20px;
+        }
+
+        input,
+        textarea {
+            font-size: 1.5rem;
+            font-family: handlee;
+            border: none;
+            border-radius: 10px;
+            margin-bottom: 20px;
+            padding: 5px 10px;
+        }
+
+        textarea {
+            resize: none;
+            min-height: 200px;
+            margin-bottom: 20px;
+            padding: 10px;
+        }
+
+        .btns-section {
+            margin: 0 auto;
+            justify-content: space-between;
+        }
+
+        button {
+            max-width: 130px;
+            font-size: 1.5rem;
+            border: 0;
+            font-family: handlee;
+            background-color: rgba(62, 62, 37, 0.536);
+            border-radius: 5px;
+            cursor: pointer;
+            transition: 0.3s;
+            flex-grow: 1;
+            color: white;
+
+            &:not(:last-of-type) {
+                margin-right: 5px;
+            }
+
+            &:hover {
+                background-color: rgba(62, 62, 37, 0.208);
+                transition: 0.3s;
+            }
+        }
+    }
+}

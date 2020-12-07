@@ -1,0 +1,138 @@
+.book-details-container {
+    background-color: #edd812;
+    background-image: linear-gradient(315deg, #766a65 0%, #c6b94c 74%);
+    min-height: 100vh;
+    padding: 35px 10px 20px;
+    text-align: center;
+
+    .book-details-content {
+        margin: 70px auto 0;
+        border-radius: 10px;
+        padding: 20px;
+        max-width: 900px;
+    }
+
+    h1 {
+        font-size: 1.8rem;
+        margin-bottom: 0;
+        font-family: sans-serif;
+    }
+
+
+    h3 {
+        font-size: 1.5rem;
+        margin-bottom: 20px;
+        font-family: sans-serif;
+        font-weight: 100;
+
+        span {
+            font-size: 1.4rem;
+            color: rgba(12, 12, 12, 0.605);
+            display: block;
+        }
+    }
+
+    h4:not(.greeting) {
+        color: rgb(53, 53, 53);
+        font-family: sans-serif;
+        font-weight: 200;
+        text-align: left;
+    }
+
+    h5 {
+        text-align: left;
+        display: inline;
+
+        &.author-name {
+            display: block;
+        }
+    }
+
+    .book-preview-container {
+        width: 65vw;
+        height: 50vh;
+        max-width: 350px;
+        max-height: 500px;
+        margin: 0 auto 20px;
+        position: relative;
+
+        .sale-icon {
+            position: absolute;
+            z-index: 1;
+            max-width: 70px;
+            transform: rotate(340deg);
+        }
+
+        h2 {
+            color: rgb(221, 218, 119);
+            margin-bottom: 0;
+            padding: 5px;
+            font-family: handlee;
+            font-size: 2rem;
+            font-weight: 600;
+
+            &:last-of-type {
+                text-overflow: ellipsis;
+                font-size: 1.2rem;
+                color: rgba(255, 255, 255, 0.822);
+            }
+        }
+
+        .rating-section {
+            font-size: 1.5rem;
+        }
+    }
+}
+
+
+.lower-section-details {
+    .details-section {
+        font-size: 1.3rem;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 600px;
+        max-height: 400px;
+        background-color: rgba(255, 255, 255, 0.372);
+        border-radius: 10px;
+        padding: 10px;
+        overflow-y: auto;
+        overflow-x: hidden;
+    }
+
+    h4 {
+        font-size: 1.2rem;
+
+        span {
+            display: inline;
+        }
+    }
+
+    h5 {
+        font-size: 1.2rem;
+        font-weight: 600;
+        font-family: sans-serif;
+    }
+}
+
+.description-section {
+    margin-top: 40px;
+
+    h5 {
+        font-size: 1.8rem;
+    }
+
+    p {
+        font-size: 1.3rem;
+        font-family: sans-serif;
+        font-weight: 200;
+        margin: 0 auto;
+        width: 100%;
+        max-width: 600px;
+        max-height: 400px;
+        overflow-y: auto;
+        background-color: rgba(255, 255, 255, 0.372);
+        border-radius: 10px;
+        padding: 10px;
+        line-height: 25px;
+    }
+}

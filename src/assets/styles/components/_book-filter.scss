@@ -1,0 +1,51 @@
+.book-filter {
+    margin-bottom: 20px;
+
+    input {
+        border: none;
+        border-radius: 10px;
+        width: 60vw;
+        max-width: 470px;
+        vertical-align: top;
+        padding: 5px;
+        font-size: 1rem;
+        transition: 0.8s;
+        animation: 1s open;
+
+        &:focus {
+            width: 70vw;
+            transition: 0.8s;
+        }
+
+        &:not(:focus) {
+            zoom: 1;
+        }
+    }
+
+    img {
+        max-width: 30px;
+        vertical-align: top;
+    }
+
+    .input-range {
+        animation: 1s flash;
+    }
+
+    .range-value {
+
+        h4 {
+            transition: 0.3s;
+            cursor: pointer;
+            margin: 0 auto;
+            max-width: 180px;
+            display: inline;
+            font-size: 1.2rem;
+            color: rgba(14, 14, 14, 0.605);
+
+            &:hover {
+                opacity: 0.8;
+                transition: 0.3s;
+            }
+        }
+    }
+}

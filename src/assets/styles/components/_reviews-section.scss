@@ -1,0 +1,114 @@
+.write-review-container {
+    margin-bottom: 20px;
+
+    h5 {
+        font-size: 1.2rem;
+        color: rgb(50, 50, 50);
+
+        span {
+            color: rgb(0, 0, 0);
+        }
+    }
+
+    form {
+        label {
+            margin: 5px;
+            font-size: 1rem;
+        }
+
+        input {
+            border: none;
+            border-radius: 3px;
+            width: 40%;
+            min-width: 180px;
+            font-size: 1.2rem;
+
+            &:last-of-type {
+                margin-bottom: 30px;
+            }
+        }
+
+        textarea {
+            border: none;
+            resize: none;
+            width: 90%;
+            max-width: 600px;
+            height: 200px;
+            padding: 10px;
+            font-size: 1.3rem;
+            border-radius: 5px;
+            background-color: rgb(237, 237, 237);
+            transition: 0.5s;
+            margin-bottom: 10px;
+
+            &:focus {
+                background-color: #fff;
+                transition: 0.5s;
+            }
+        }
+
+        button {
+            font-size: 1.2rem;
+            border: none;
+            background-color: rgba(194, 86, 86, 0.577);
+            padding: 5px 10px;
+            border-radius: 3px;
+            cursor: pointer;
+            color: rgb(67, 67, 67);
+
+            &:hover {
+                background-color: rgb(194, 86, 86);
+                color: black;
+                transition: 0.5s;
+            }
+        }
+    }
+}
+
+.reviews-list {
+    margin: 0 auto;
+    width: 90%;
+    max-width: 600px;
+
+    .review-preview {
+        vertical-align: bottom;
+        margin: 0 auto 20px;
+        background-color: rgba(215, 211, 103, 0.584);
+        border-radius: 10px;
+        width: 100%;
+        max-width: 600px;
+        padding: 10px 0;
+
+        img {
+            max-width: 40px;
+            max-height: 40px;
+            object-fit: contain;
+        }
+
+        p {
+            margin-bottom: 15px;
+        }
+
+        .review-full-name {
+            text-shadow: 0.7px 0.7px;
+            font-size: 1.5rem;
+            color: rgb(91, 6, 6);
+        }
+
+        .review-date {
+            margin-right: 15px;
+            color: rgba(65, 65, 65, 0.735);
+            margin: 0 auto 10px;
+        }
+
+        .review-txt {
+            max-height: 150px;
+            overflow-y: auto;
+            overflow-x: hidden;
+            text-overflow: ellipsis;
+            margin: 0 auto;
+            font-family: sans-serif;
+            font-weight: 600;
+        }
+    }
+}

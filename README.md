@@ -1,4 +1,4 @@
-# BookApp!
+# BookApp
 `Digital book library`
 * WPA using Vue.js.
 * Managing favorite books, getting book info, rates and reviews system.

@@ -1,5 +1,5 @@
 # BookApp
-`Digital book library`
+**Digital book library**
 * WPA using Vue.js.
 * Managing favorite books, getting book info, rates and reviews system.
 * Adding books by using google-books API.
